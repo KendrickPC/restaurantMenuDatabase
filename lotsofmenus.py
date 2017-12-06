@@ -48,6 +48,7 @@ menuItem3 = MenuItem(name="Chocolate Cake", description="fresh baked and served 
                      price="$3.99", course="Dessert", restaurant=restaurant1)
 
 session.add(menuItem3)
+
 session.commit()
 
 menuItem4 = MenuItem(name="Sirloin Burger", description="Made with grade A beef",
